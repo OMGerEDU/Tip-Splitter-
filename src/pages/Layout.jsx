@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Sun, Moon, Languages, ChevronUp, X, Menu } from "lucide-react";
-import AccessibilityMenu from "./components/AccessibilityMenu";
-import LanguageSwitcher from "./components/LanguageSwitcher";
-import CookieBanner from "./components/CookieBanner";
+import AccessibilityMenu from "../components/AccessibilityMenu";
+import LanguageSwitcher from "../components/LanguageSwitcher";
+import CookieBanner from "../components/CookieBanner";
 import { Button } from "@/components/ui/button";
 
 export default function Layout({ children, currentPageName }) {
